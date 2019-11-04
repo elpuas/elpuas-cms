@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Kyle Matthews`,
+    title: `el.puas`,
+    author: `Alfredo Navas`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://elpuasdev.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `3lpu4s`,
     },
   },
   plugins: [
@@ -28,6 +28,12 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `el_puas`,
       },
     },
     {

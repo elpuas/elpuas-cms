@@ -4,10 +4,11 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
+import Instagram from "../components/instagram"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Gatsby Starter Personal Website"
+    const siteTitle = "el.puas"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -22,12 +23,11 @@ class IndexPage extends React.Component {
             👋
           </span>
         </h1>
-        <p>Welcome to your new Gatsby website. You are on your home page.</p>
-        <p>
-          This starter comes out of the box with styled components and Gatsby's
-          default starter blog running on Netlify CMS.
-        </p>
-        <p>Now go build something great!</p>
+        <Instagram />
+        <p>Hi, my name is Alfredo Navas, better known as el.puas and I am a Web Artisan based in the beautiful Costa Rica.</p>
+        <p>I run a small workshop of Web Design & Development, I specialize in custom WordPress Development, eCommerce and the JAMStack, speacilly with GatsbyJS.</p>
+        <p>I also help my local WordPress community as a organizer/speaker of the MeetUp Group , organizer and speaker of WordCamp San Jose, volunteer and speaker of several camps that include WordCamp US, WordCamp MIA, WordCamp Managua and WordPress Rome Group.</p>
+        <p>And more recently the Gatsby Costa Rica Group, making regular meetups with the React Community</p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>
