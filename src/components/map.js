@@ -13,7 +13,7 @@ export default function Map({ options, onMount, className }) {
       script.type = `text/javascript`
       script.src =
         `https://maps.googleapis.com/maps/api/js?key=` +
-       `AIzaSyBuMhbsYKL5TS7FK_9XLRVvOulGf3_gpJ4`
+		process.env.GATSBY_GOOGLE_API_KEY
       const headScript = document.getElementsByTagName(`script`)[0]
       headScript.parentNode.insertBefore(script, headScript)
       script.addEventListener(`load`, onLoad)
