@@ -1,5 +1,5 @@
 ---
-path: /content/blog
+path: content/blog
 date: 2019-11-05T21:21:58.793Z
 title: WordPress en Docker
 description: >-
