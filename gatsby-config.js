@@ -16,6 +16,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-dark-mode`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,13 +35,6 @@ module.exports = {
       resolve: `gatsby-source-instagram`,
       options: {
         username: `el_puas`,
-      },
-    },
-    {
-      resolve: `gatsby-styled-components-dark-mode`,
-      options: {
-        light: require(`${__dirname}/src/theme.js`).lightTheme,
-        dark: require(`${__dirname}/src/theme.js`).darkTheme,
       },
     },
     {
