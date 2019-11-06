@@ -7,7 +7,7 @@ module.exports = {
     // edit below
     title: `el.puas`,
     author: `Alfredo Navas`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    description: `A starter personal blog with styled components, dark mode, storybooks and Netlify CMS.`,
     siteUrl: `https://elpuasdev.netlify.com/`,
     social: {
       twitter: `3lpu4s`,
@@ -21,6 +21,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-dark-mode`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

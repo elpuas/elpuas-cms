@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -44,9 +45,9 @@ class Blog extends React.Component {
             )
           })}
         </div>
-        <Link to="/">
+        <AniLink paintDrip to="/" duration={1}>
           <Button marginTop="85px">Go Home</Button>
-        </Link>
+        </AniLink>
       </Layout>
     )
   }
