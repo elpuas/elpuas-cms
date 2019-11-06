@@ -7,7 +7,6 @@ export default function Map({ options, onMount, className }) {
     const onLoad = () => {
       const map = new window.google.maps.Map(divProps.ref.current, options)
 	  onMount && onMount(map)
-	  console.log(`${process.env.GATSBY_GOOGLE_API_KEY}`);
     }
     if (!window.google) {
       const script = document.createElement(`script`)
