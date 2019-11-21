@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 import Instagram from "../components/instagram"
-import Form from "../components/forms"
+import Form from "../components/form"
 import Map from "../components/map"
 
 class IndexPage extends React.Component {

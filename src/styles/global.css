@@ -6,7 +6,9 @@ body {
 	--textTitle: #222;
 	--textLink: blue;
 	--hr: hsla(0, 0%, 0%, 0.2);
-  
+	--formBorderColor: purple;
+
+	font-family: 'McLaren', cursive;
 	background-color: var(--bg);
   }
   
@@ -18,4 +20,5 @@ body {
 	--textTitle: white;
 	--textLink: yellow;
 	--hr: hsla(0, 0%, 100%, 0.2);
+	--formBorderColor: orange;
   }

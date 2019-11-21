@@ -17035,6 +17035,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-mclaren@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-mclaren/-/typeface-mclaren-0.0.72.tgz#62fe4100468ebb1ae52dcd5751f9f02590a05baf"
+  integrity sha512-oSSyPLVggiQW/L0H1x6F5F1RvM2/sSTSVOwYHFAeiFsyAuI8E4vAaLAj1oDg8W7LaOUbnp01b4IrNlxP+FHnog==
+
 typeface-merriweather@0.0.72:
   version "0.0.72"
   resolved "https://registry.yarnpkg.com/typeface-merriweather/-/typeface-merriweather-0.0.72.tgz#2b990f5293252052d51d170c82d3892319ff0555"
